@@ -1,2 +1,2 @@
-# ROSALIND-tutorials
+# ROSALIND-problems
 ROSALIND tutorial questions
