@@ -5,7 +5,7 @@ downloads_folder = os.path.join(os.path.expanduser("~"),"Downloads")
 # "Downloads" directory
 file_path = os.path.join(downloads_folder, "rosalind_dna.txt") # File name
 
-with open(file_path, "r") as file:
+with open(file_path, "r") as file: # Open desired file
     dna_string = file.read().strip()  # Remove any spaces or new line markers
 
 count_a = dna_string.count("A")  # Count occurrences of A
