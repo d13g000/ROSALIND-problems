@@ -34,7 +34,7 @@ def highest_gc_content(data):
 
 # Read FASTA file
 downloads_folder = os.path.expanduser("~/Downloads")
-file_path = os.path.join(downloads_folder, "rosalind_fasta.txt")
+file_path = os.path.join(downloads_folder, "rosalind_gc.txt")
 
 # Ensure file exists before proceeding
 if not os.path.exists(file_path):
